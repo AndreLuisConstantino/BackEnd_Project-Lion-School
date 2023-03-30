@@ -74,7 +74,7 @@ app.get('/v1/lion-school/alunos', cors(), async function (request, response, nex
         }
         
     } else {
-        aluno = getAlunos()
+        aluno = lionSchool.getAlunos()
     }
 
     if (aluno) {
