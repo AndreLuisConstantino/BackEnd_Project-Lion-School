@@ -111,29 +111,6 @@ app.get('/v1/lion-school/alunos/:matricula', cors(), async function (request, re
     response.json(dadosMatriculaAluno)
 })
 
-//EndPoint para pegar pegar alunos filtrados pelo curso
-// app.get('/v1/lion-school/alunes', cors(), async function (request, response, next) {
-//     let statusCode 
-//     let dadosAlunosCurso = {}
-
-//     let curso = request.query.curso
-
-//     if(curso == '' || curso == undefined || !isNaN(curso)){
-//         statusCode = 400
-//         dadosAlunosCurso.message = 'Não foi possivel processar os valores dos alunos do curso. A sigla pode estar vazio e não pode conter números'
-//     } else {
-//         let alunosCurso = lionSchool.getAlunosCurso(curso)
-
-//         if (alunosCurso){
-//             statusCode = 200
-//             dadosAlunosCurso = alunosCurso
-//         } else {
-//             statusCode = 404
-//         }
-//     }
-//     response.status(statusCode)
-//     response.json(dadosAlunosCurso)
-// })
 
 //Roda o serviço para API para ficar guardando as requisições 
 app.listen(8080, function () {
