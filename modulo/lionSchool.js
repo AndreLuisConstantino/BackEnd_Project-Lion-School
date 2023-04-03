@@ -118,7 +118,7 @@ const getAlunosCurso = function (siglaCurso) {
     let jsonListaDeAlunos = {}
     let status = false
     let arrayAlunos = []
-    let cursoSigla = siglaCurso
+    let cursoSigla = siglaCurso.toUpperCase()
 
     listaDeAlunos.alunos.forEach(function (aluno) {
         aluno.curso.forEach(function (curso) {
@@ -148,14 +148,14 @@ const getAlunosCurso = function (siglaCurso) {
 
 const getAlunosStatus = function (statusCurso) {
 
-    const statusDoCurso = statusCurso
+    const statusDoCurso = statusCurso.toUpperCase()
     let jsonStatus = {}
     let alunosStatusArray = []
     let status
 
 
     listaDeAlunos.alunos.forEach(function (aluno) {
-        if (aluno.status == statusDoCurso) {
+        if (aluno.status.toUpperCase() == statusDoCurso) {
             let alunosStatus = {}
             alunosStatus.nome = aluno.nome
             alunosStatus.foto = aluno.foto
@@ -192,3 +192,5 @@ module.exports = {
     getAlunosCurso,
     getAlunosStatus
 }
+
+console.log(getAlunosStatus('cursando'))
