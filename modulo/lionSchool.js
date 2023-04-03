@@ -192,5 +192,3 @@ module.exports = {
     getAlunosCurso,
     getAlunosStatus
 }
-
-console.log(getAlunosStatus('cursando'))
