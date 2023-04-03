@@ -151,7 +151,7 @@ const getAlunosStatus = function (statusCurso) {
     const statusDoCurso = statusCurso.toUpperCase()
     let jsonStatus = {}
     let alunosStatusArray = []
-    let status
+    let status = false
 
 
     listaDeAlunos.alunos.forEach(function (aluno) {
@@ -174,7 +174,7 @@ const getAlunosStatus = function (statusCurso) {
                 alunosStatus.cor = '#E5B657'
                 status = true
             } else {
-                return false
+                return status
             }
 
             alunosStatusArray.push(alunosStatus)
