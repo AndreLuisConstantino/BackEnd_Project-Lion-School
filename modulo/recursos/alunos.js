@@ -1,6 +1,6 @@
 var alunos = [
      
-    {       "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-4-avatar-2754580_120522.png",
+    {       "foto"  : "aluna.png",
             "nome"  : "Aline de Almeida Campos",
             "matricula" : "20151001001",
             "sexo"  :   "F",
@@ -54,7 +54,7 @@ var alunos = [
             "status" : "Cursando"
         },
         {
-            "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-4-avatar-2754580_120522.png",
+            "foto"  : "aluna.png",
             "nome"  : "Ana Carolina Vasconcelos Barreto",
             "matricula" : "20151001002",
             "sexo"  :   "F",
@@ -108,7 +108,7 @@ var alunos = [
             "status" : "Cursando"
         },
         {
-            "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-8-avatar-2754583_120515.png",
+            "foto"  : "aluno.png",
             "nome"  : "ANDERSON GERÔNCIO SOUZA SILVA",
             "matricula" : "20151001004",
             "sexo"  :   "M",
@@ -162,7 +162,7 @@ var alunos = [
             "status" : "Cursando"
         },
         {
-            "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-8-avatar-2754583_120515.png",
+            "foto"  : "aluno.png",
             "nome"  : "Aristóteles da Silva Lima",
             "matricula" : "20151001007",
             "sexo"  :   "M",
@@ -234,7 +234,7 @@ var alunos = [
             "status" : "Finalizado"
         },
         {
-            "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-4-avatar-2754580_120522.png",
+            "foto"  : "aluna.png",
             "nome"  : "Gabriella Macedo Paiva",
             "matricula" : "20151001014",
             "sexo"  :   "F",
@@ -306,7 +306,7 @@ var alunos = [
             "status" : "Finalizado"
         },
         {
-            "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-4-avatar-2754580_120522.png",
+            "foto"  : "aluna.png",
             "nome"  : "Debora Alves da Silva",
             "matricula" : "20151001012",
             "sexo"  :   "F",
@@ -378,7 +378,7 @@ var alunos = [
             "status" : "Finalizado"
         },
         {
-            "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-4-avatar-2754580_120522.png",
+            "foto"  : "aluna.png",
             "nome"  : "Heloisa Santos Araujo",
             "matricula" : "20151001017",
             "sexo"  :   "F",
@@ -450,7 +450,7 @@ var alunos = [
             "status" : "Finalizado"
         },
         {
-            "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-4-avatar-2754580_120522.png",
+            "foto"  : "aluna.png",
             "nome"  : "Ingrid Paloma da Costa Porto",
             "matricula" : "20151001018",
             "sexo"  :   "F",
@@ -522,7 +522,7 @@ var alunos = [
             "status" : "Finalizado"
         },
         {
-            "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-4-avatar-2754580_120522.png",
+            "foto"  : "aluna.png",
             "nome"  : "HÉLIDA BENTO DE OLIVEIRA LINS",
             "matricula" : "20151001016",
             "sexo"  :   "F",
@@ -576,7 +576,7 @@ var alunos = [
             "status" : "Cursando"
         },
         {
-            "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-8-avatar-2754583_120515.png",
+            "foto"  : "aluno.png",
             "nome"  : "Isaasc de Sousa Araújo",
             "matricula" : "20151001019",
             "sexo"  :   "M",
@@ -630,7 +630,7 @@ var alunos = [
             "status" : "Cursando"
         },
         {
-            "foto"  : "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-8-avatar-2754583_120515.png",
+            "foto"  : "aluno.png",
             "nome"  : "José Matheus da Silva Miranda",
             "matricula" : "20151001024",
             "sexo"  :   "M",
