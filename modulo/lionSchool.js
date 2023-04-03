@@ -163,7 +163,7 @@ const getAlunosStatus = function (statusCurso) {
             alunosStatus.sexo = aluno.sexo
             alunosStatus.status = aluno.status
             aluno.curso.forEach((curso) => {
-                alunosStatus.curso = curso.sigla
+                alunosStatus.sigla = curso.sigla
                 alunosStatus.curso = curso.nome
                 alunosStatus.disciplina = curso.disciplinas
             })
