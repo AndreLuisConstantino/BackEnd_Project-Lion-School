@@ -162,6 +162,11 @@ const getAlunosStatus = function (statusCurso) {
             alunosStatus.matricula = aluno.matricula
             alunosStatus.sexo = aluno.sexo
             alunosStatus.status = aluno.status
+            aluno.curso.forEach((curso) => {
+                alunosStatus.curso = curso.sigla
+                alunosStatus.curso = curso.nome
+                alunosStatus.disciplina = curso.disciplinas
+            })
             if (aluno.status == 'Cursando') {
                 alunosStatus.cor = '#3347B0'
                 status = true
@@ -192,3 +197,5 @@ module.exports = {
     getAlunosCurso,
     getAlunosStatus
 }
+
+console.log(getAlunosStatus('cursando'))
