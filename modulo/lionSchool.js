@@ -10,7 +10,6 @@ var listaDeCursos = require('./recursos/cursos.js')
 
 //Variável que pega o JSON de alunos
 var listaDeAlunos = require('./recursos/alunos.js')
-const alunos = require('./recursos/alunos.js')
 
 
 //Função para listar todos os cursos e informações
@@ -190,6 +189,43 @@ const getAlunosStatus = function (statusCurso) {
         return status
     }
 }
+
+const getAlunosAno = function (ano, sigla) {
+    let cursoSigla = sigla
+    let anoCurso = ano
+    let status = false
+    let jsonAlunos = {}
+    let arrayDeAlunos = []
+
+    console.log(cursoSigla)
+    listaDeAlunos.alunos.forEach(function (aluno) {
+
+        aluno.curso.forEach(function (curso) {
+
+            if (anoCurso == curso.conclusao && cursoSigla == curso.sigla) {
+
+                if (cursoSigla = curso.sigla) {
+                    let jsonAluno = {}
+                    jsonAluno.nome = aluno.nome
+                    jsonAluno.foto = aluno.foto
+                    jsonAluno.conclusao = curso.conclusao
+                    jsonAluno.curso = curso.sigla
+                    arrayDeAlunos.push(jsonAluno)
+                    status = true
+                }
+
+            }
+        })
+    })
+    jsonAlunos.alunos = arrayDeAlunos
+
+    if (status) {
+        return jsonAlunos
+    } else {
+        return status
+    }
+}
+
 module.exports = {
     getCursos,
     getAlunos,
@@ -197,5 +233,3 @@ module.exports = {
     getAlunosCurso,
     getAlunosStatus
 }
-
-console.log(getAlunosStatus('cursando'))
