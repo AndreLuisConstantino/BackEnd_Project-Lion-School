@@ -54,8 +54,18 @@ app.get('/v1/lion-school/alunos', cors(), async function (request, response, nex
 
     let curso = request.query.curso
     let status = request.query.status
+    let ano = request.query.ano
 
-    if (curso) {
+    if (ano && curso) {
+
+        if (ano == '' || ano == undefined || isNaN(ano)) {
+            statusCode = 400
+            dadosAlunos.message = 'Não foi possivel processar os valores do status do aluno. A sigla pode estar vazia e não pode conter números'
+        } else {
+            aluno = lionSchool.getAlunosAno(ano, curso)
+        }
+
+    } else if (curso) {
 
         if (curso == '' || curso == undefined || !isNaN(curso)) {
             statusCode = 400
@@ -66,14 +76,15 @@ app.get('/v1/lion-school/alunos', cors(), async function (request, response, nex
 
     } else if (status) {
 
-        if (status == '' || status == undefined || !isNaN(status)){
+        if (status == '' || status == undefined || !isNaN(status)) {
             statusCode = 400
             dadosAlunos.message = 'Não foi possivel processar os valores do status do aluno. A sigla pode estar vazia e não pode conter números'
         } else {
             aluno = lionSchool.getAlunosStatus(status)
         }
-        
-    } else {
+
+    }
+    else {
         aluno = lionSchool.getAlunos()
     }
 

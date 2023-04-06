@@ -197,7 +197,6 @@ const getAlunosAno = function (ano, sigla) {
     let jsonAlunos = {}
     let arrayDeAlunos = []
 
-    console.log(cursoSigla)
     listaDeAlunos.alunos.forEach(function (aluno) {
 
         aluno.curso.forEach(function (curso) {
@@ -231,5 +230,6 @@ module.exports = {
     getAlunos,
     getAlunoMatricula,
     getAlunosCurso,
-    getAlunosStatus
+    getAlunosStatus,
+    getAlunosAno
 }
