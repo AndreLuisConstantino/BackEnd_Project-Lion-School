@@ -208,6 +208,7 @@ const getAlunosAno = function (ano, sigla) {
                     jsonAluno.nome = aluno.nome
                     jsonAluno.foto = aluno.foto
                     jsonAluno.conclusao = curso.conclusao
+                    jsonAluno.status = aluno.status
                     jsonAluno.curso = curso.sigla
                     arrayDeAlunos.push(jsonAluno)
                     status = true
