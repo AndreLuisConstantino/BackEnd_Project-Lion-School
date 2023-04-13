@@ -96,6 +96,7 @@ const getAlunoMatricula = function (numeroDaMatricula) {
                 })
                 jsonAluno.disciplinas = arrayDeDisciplina
                 jsonAluno.status = aluno.status
+                jsonAluno.matricula = aluno.matricula
             })
 
             arrayDeAluno.push(jsonAluno)
