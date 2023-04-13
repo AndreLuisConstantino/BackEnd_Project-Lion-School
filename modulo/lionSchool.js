@@ -211,6 +211,7 @@ const getAlunosAno = function (ano, sigla) {
                     jsonAluno.conclusao = curso.conclusao
                     jsonAluno.status = aluno.status
                     jsonAluno.curso = curso.sigla
+                    jsonAluno.matricula = aluno.matricula
                     arrayDeAlunos.push(jsonAluno)
                     status = true
                 }
@@ -235,3 +236,5 @@ module.exports = {
     getAlunosStatus,
     getAlunosAno
 }
+
+console.log(getAlunosAno('2023', 'DS'))
