@@ -1,12 +1,12 @@
 var alunos = [
      
-    {       "foto"  : "aluna.png",
+    {       "foto"  : "https://lion-school-five.vercel.app/img/aluna.png",
             "nome"  : "Aline de Almeida Campos",
             "matricula" : "20151001001",
             "sexo"  :   "F",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Redes de Computadores",
+                    "nome"  :   "Técnico em Redes de Computadores",
                     "sigla" :   "RDS",
                     "icone" :   "https://img.icons8.com/ultraviolet/344/thin-client.png",
                     "carga" :   "1200",
@@ -54,13 +54,13 @@ var alunos = [
             "status" : "Cursando"
         },
         {
-            "foto"  : "aluna.png",
+            "foto"  : "https://lion-school-five.vercel.app/img/aluna.png",
             "nome"  : "Ana Carolina Vasconcelos Barreto",
             "matricula" : "20151001002",
             "sexo"  :   "F",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Redes de Computadores",
+                    "nome"  :   "Técnico em Redes de Computadores",
                     "sigla" :   "RDS",
                     "icone" :   "https://img.icons8.com/ultraviolet/344/thin-client.png",
                     "carga" :   "1200",
@@ -108,13 +108,13 @@ var alunos = [
             "status" : "Cursando"
         },
         {
-            "foto"  : "aluno.png",
+            "foto"  : "https://lion-school-five.vercel.app/img/aluno.png",
             "nome"  : "ANDERSON GERÔNCIO SOUZA SILVA",
             "matricula" : "20151001004",
             "sexo"  :   "M",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Redes de Computadores",
+                    "nome"  :   "Técnico em Redes de Computadores",
                     "sigla" :   "RDS",
                     "icone" :   "https://img.icons8.com/ultraviolet/344/thin-client.png",
                     "carga" :   "1200",
@@ -162,13 +162,13 @@ var alunos = [
             "status" : "Cursando"
         },
         {
-            "foto"  : "aluno.png",
+            "foto"  : "https://lion-school-five.vercel.app/img/aluno.png",
             "nome"  : "Aristóteles da Silva Lima",
             "matricula" : "20151001007",
             "sexo"  :   "M",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Redes de Computadores",
+                    "nome"  :   "Técnico em Redes de Computadores",
                     "sigla" :   "RDS",
                     "icone" :   "https://img.icons8.com/ultraviolet/344/thin-client.png",
                     "carga" :   "1200",
@@ -234,13 +234,13 @@ var alunos = [
             "status" : "Finalizado"
         },
         {
-            "foto"  : "aluna.png",
+            "foto"  : "https://lion-school-five.vercel.app/img/aluna.png",
             "nome"  : "Gabriella Macedo Paiva",
             "matricula" : "20151001014",
             "sexo"  :   "F",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Redes de Computadores",
+                    "nome"  :   "Técnico em Redes de Computadores",
                     "sigla" :   "RDS",
                     "icone" :   "https://img.icons8.com/ultraviolet/344/thin-client.png",
                     "carga" :   "1200",
@@ -306,13 +306,13 @@ var alunos = [
             "status" : "Finalizado"
         },
         {
-            "foto"  : "aluna.png",
+            "foto"  : "https://lion-school-five.vercel.app/img/aluna.png",
             "nome"  : "Debora Alves da Silva",
             "matricula" : "20151001012",
             "sexo"  :   "F",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Redes de Computadores",
+                    "nome"  :   "Técnico em Redes de Computadores",
                     "sigla" :   "RDS",
                     "icone" :   "https://img.icons8.com/ultraviolet/344/thin-client.png",
                     "carga" :   "1200",
@@ -378,13 +378,13 @@ var alunos = [
             "status" : "Finalizado"
         },
         {
-            "foto"  : "aluna.png",
+            "foto"  : "https://lion-school-five.vercel.app/img/aluna.png",
             "nome"  : "Heloisa Santos Araujo",
             "matricula" : "20151001017",
             "sexo"  :   "F",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Desenvolvimento de Sistemas",
+                    "nome"  :   "Técnico em Desenvolvimento de Sistemas",
                     "sigla" :   "DS",
                     "icone" :   "https://image.shutterstock.com/image-vector/api-interface-vector-icon-600w-659203513.jpg",
                     "carga" :   "1200",
@@ -450,13 +450,13 @@ var alunos = [
             "status" : "Finalizado"
         },
         {
-            "foto"  : "aluna.png",
+            "foto"  : "https://lion-school-five.vercel.app/img/aluna.png",
             "nome"  : "Ingrid Paloma da Costa Porto",
             "matricula" : "20151001018",
             "sexo"  :   "F",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Desenvolvimento de Sistemas",
+                    "nome"  :   "Técnico em Desenvolvimento de Sistemas",
                     "sigla" :   "DS",
                     "icone" :   "https://image.shutterstock.com/image-vector/api-interface-vector-icon-600w-659203513.jpg",
                     "carga" :   "1200",
@@ -522,13 +522,13 @@ var alunos = [
             "status" : "Finalizado"
         },
         {
-            "foto"  : "aluna.png",
+            "foto"  : "=https://lion-school-five.vercel.app/img/aluna.png",
             "nome"  : "HÉLIDA BENTO DE OLIVEIRA LINS",
             "matricula" : "20151001016",
             "sexo"  :   "F",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Desenvolvimento de Sistemas",
+                    "nome"  :   "Técnico em Desenvolvimento de Sistemas",
                     "sigla" :   "DS",
                     "icone" :   "https://image.shutterstock.com/image-vector/api-interface-vector-icon-600w-659203513.jpg",
                     "carga" :   "1200",
@@ -576,13 +576,13 @@ var alunos = [
             "status" : "Cursando"
         },
         {
-            "foto"  : "aluno.png",
+            "foto"  : "https://lion-school-five.vercel.app/img/aluno.png",
             "nome"  : "Isaasc de Sousa Araújo",
             "matricula" : "20151001019",
             "sexo"  :   "M",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Desenvolvimento de Sistemas",
+                    "nome"  :   "Técnico em Desenvolvimento de Sistemas",
                     "sigla" :   "DS",
                     "icone" :   "https://image.shutterstock.com/image-vector/api-interface-vector-icon-600w-659203513.jpg",
                     "carga" :   "1200",
@@ -630,13 +630,13 @@ var alunos = [
             "status" : "Cursando"
         },
         {
-            "foto"  : "aluno.png",
+            "foto"  : "https://lion-school-five.vercel.app/img/aluno.png",
             "nome"  : "José Matheus da Silva Miranda",
             "matricula" : "20151001024",
             "sexo"  :   "M",
             "curso" : [
                 {
-                    "nome"  :   "001 - Técnico em Desenvolvimento de Sistemas",
+                    "nome"  :   "Técnico em Desenvolvimento de Sistemas",
                     "sigla" :   "DS",
                     "icone" :   "https://image.shutterstock.com/image-vector/api-interface-vector-icon-600w-659203513.jpg",
                     "carga" :   "1200",
